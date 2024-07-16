@@ -16,6 +16,6 @@ services:
     depends_on:
       - php
     ports:
-      - '1999:80'
+      - '19991:80'
     volumes:
       - ${PROJECT_ROOT}/:/var/www/html/
